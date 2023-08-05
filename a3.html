@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "myId">
+
+    </div>
+    <button onclick = "img1()">
+        Click for Image1
+    </button>
+    <button onclick = "img2()">
+        Click for Image1
+    </button>
+    <script>
+        function img1(){
+    let id = document.getElementById("myId");
+    id.innerHTML = "<img src='https://miro.medium.com/max/2400/0*hDAyhnOx767w5qma.jpg' height = '400' width = '600'/>  ";
+}
+function img2(){
+    let id = document.getElementById("myId");
+    id.innerHTML = " <img src='https://wallpaperaccess.com/full/3239444.jpg' height = '400' width = '600'/> ";
+}
+    </script>
+</body>
+</html>

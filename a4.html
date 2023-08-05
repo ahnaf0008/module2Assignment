@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+
+        url = "https://jsonplaceholder.typicode.com/posts";
+        fetchResponse();
+       function  fetchResponse(){
+
+            fetch(url).then((res)=>{
+                let jsonData = res.json();
+                console.log(jsonData);
+            });
+
+        }
+
+    </script>
+</body>
+</html>
